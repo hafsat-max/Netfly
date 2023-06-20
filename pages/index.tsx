@@ -80,7 +80,7 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Index
 
 // http://www.omdbapi.com/?i=tt3896198&apikey=
 // 1962bf49
