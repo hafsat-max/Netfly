@@ -7,7 +7,7 @@ type Movies = {
   totalResults: string;
   Response: string;
 };
-const index = () => {
+const Index = () => {
   const [movies, setMovies] = useState <Movies| null>(null);
   const [search, setSearch] = useState("");
   const [error, setError] = useState("");
@@ -80,7 +80,7 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
 
 // http://www.omdbapi.com/?i=tt3896198&apikey=
 // 1962bf49
