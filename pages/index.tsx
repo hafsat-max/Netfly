@@ -23,7 +23,7 @@ const Index = () => {
       if (data?.Error) {
         setError(data?.Error);
         setSearch("");
-      } else {
+      } else {  
         setMovies(data);
         console.log(data);
         setSearch("");
